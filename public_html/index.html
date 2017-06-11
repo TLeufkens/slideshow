@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Bootstrap  -->
+        <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        
+        <script src="bootstrap-3.3.7-dist/js/bootstrap.js" type="text/javascript"></script>
+
+        <!-- jQuery & Own -->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+        
+        <!-- Leaflet -->
+        
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" >
+        <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js" ></script>
+        
+        <!-- Super fancy downward scroll -->
+
+        <script src="modules/jquery.easing.min.js" type="text/javascript"></script>
+        <script src="modules/scrolling-nav.js" type="text/javascript"></script>
+        <link href="modules/scrolling-nav.css" rel="stylesheet" type="text/css"/>
+       
+        <title>The Company</title>
+        
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-default navbar-fixed-top">
+            
+            <div class="container">
+                
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <div id="menu" class="collapse navbar-collapse">
+                
+                    <ul class="nav navbar-nav">
+
+                        <!-- The navi only works with links inside -->
+                        <li class="menuitemLink active"><a class="page-scroll" href="#anchorHome">Home</a></li>
+                        <li id="liOne" class="menuitemLink active"><a id="buttonOne" class="page-scroll" href="#anchorHome">Slide 1</a></li>
+                        <li id="liTwo" class="menuitemLink"><a id="buttonTwo" class="page-scroll" href="#anchorHome">Slide 2</a></li>
+                        <li id="liThree" class="menuitemLink"><a id="buttonThree" class="page-scroll" href="#anchorHome">Slide 3</a></li> 
+                        <li class="menuitemAbout"><a class="page-scroll" href="#anchorAbout" id="btnAbout">About</a></li>
+                        <li class="menuitem"><a class="page-scroll" href="#anchorContact">Contact</a></li>
+                                           
+                    </ul>
+                    
+                </div>
+                
+            </div>
+            
+        </nav>
+        
+        <div id="anchorHome"></div>
+
+        <img class="logo" src="img/Logo_TV_2015.png" alt="logo"/>
+        
+        <div id="contentSlider" class="contentSlider">
+            
+            
+            <span>
+            
+                <i id="arrowLeft" class="glyphicon glyphicon-chevron-left" style="font-size: 5em; top: 450px; left: 5%; z-index: 10;"></i>
+            
+            </span>
+            
+            <div id="contentOne" class="content contentOne">
+
+                
+                <div id="textOne" class="textSlider">
+                    We are like wood.
+                    <p>
+                        Wood means ascending and represents life vitality, featuring fluent and gentle attributes. Since woods always grow upward, wood-type companies tend to be energetic and lucky. If they can calm down, they will have even better luck; on the contrary, they will have bad luck and find it hard to do anything. <br /><br />
+
+                        From the perspective of public administration, wood types are proactive and always take the lead, which often make others jealous of them. The little conflicts are very common but they should beware of breeding disasters out of accidental conflicts. <br /><br />
+
+                        When it comes to entrepreneurship choices, wood people are suitable for some high-strength and high-intelligence jobs due to their outstanding vigor. At the same time, they have the diplomat's quality.
+
+                    </p>
+                </div>
+            </div>
+
+            <div id="contentTwo" class="content contentTwo">
+
+                <div id="textTwo" class="textSlider">
+                    We are flexible.
+                    <p>
+                        Psychological flexibility has been found to improve mental health and absence rates. A mediating variable is job control, which suggests that people feel they have more psychological flexibility when they have more control over their jobs. This is likely due to workers feeling less restricted by what they are allowed to do and more empowered to solve a problem. <br /><br />
+                        
+                        A longitudinal study on psychological flexibility and job control showed that these variables predicted workers’ mental health, job performance, and even their ability to learn new software. The study demonstrates the power of psychological flexibility in the workplace as psychologically flexible workers have better mental health and job performance. Allowing workers more job control would likely increase work productivity as it would increase the workers’ psychological flexibility.
+                    </p>
+                </div>
+
+            </div>
+
+            <div id="contentThree" class="content contentThree">
+
+                <div id="textThree" class="textSlider">
+                    We are steady.
+                    <p>
+                        The Company is known for being steady, stable, and predictable. We are even-tempered, friendly, sympathetic with others, and very generous with loved ones. The Company is understanding and listens well. <br /><br />
+
+                        Our steady style is reliant and dependable. We are patient, good listeners, who want to work with teams in a harmonious way. We strive for consensus and will try hard to reconcile conflicts as they arise. We are compliant towards authority and a loyal team player. We are also good at multi-tasking and seeing tasks through until completion.
+                    </p>
+                </div>
+
+            </div>
+            
+            <span>
+            
+                <i id="arrowRight" class="glyphicon glyphicon-chevron-right" style="font-size: 5em; top: 450px; left: 87%; z-index: 10;"></i>
+            
+            </span>
+            
+        </div>
+        
+        <div id="anchorAbout"></div>
+        
+        <div id="About" class="content about">
+            
+            <span style="color: crimson;">About </span>
+            
+            <div class="contentAbout container-fluid">
+                
+                <div class="row" style="background: lightgrey;">
+                    
+                     <div class="col-sm-8 col-md-8 col-lg-8">
+                        <div class="jumbotron hidden-sm" style="background: lightgrey;">
+                            <h1>://About The Company</h1>
+                            <p>We are the company you want to be!</p>
+                        </div>
+                     </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <img class="aboutImg" src="img/icons-about-user.png" alt="about"/>
+                        </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6" style="padding-left: 30px;">
+                        
+                            
+                                <h2>Let’s accelerate growth, and have fun doing it.</h2> 
+                                <p style="font-size: medium;">
+                                    We create solutions that connect business, marketing and creativity. Our goal is to work with you to remove barriers to your business and quickly grow your revenue.
+                                    <br/><br/>
+                                    We partner with you to quickly develop and implement new products, pilot tests, marketing campaigns and sales programs.
+                                </p>
+                        
+                    </div>
+
+                    
+                    <div class="col-sm-6 col-md-6 col-lg-6" >
+                        
+                        <div class="videoPlayer center-block">
+
+                            <video width="400" id="video" preload="auto">
+                                <source src="media/AboutCompany.mp4">
+                            </video>
+
+                            <div class="controls">
+
+                                <button type="button" id="play" class="ph-button ph-btn-red">Play</button>
+                                    <!-- <button type="button" id="pause">Pause</button> -->
+                                <input id="timeline" type="range">
+
+                            </div>
+
+                        </div>
+                                             
+                    </div>
+                    
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12" >
+                        
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <h2>Growth Via Integrated Solution</h2>
+                                <p style="font-size: medium;">
+                                The Company advocates a simple formula for marketing to businesses and consumers: customer mapping + integrated concepts + breakthrough execution.
+                                </p>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <h2>We operate at startup speed.</h2>
+                                <p style="font-size: medium;">
+                                Whether you are a startup or a Fortune 100 company, we’ll work with you to solve business and marketing challenges and accomplish growth goals quickly.
+                                </p>
+                            </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12" >
+                        
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <h2>Growth Via Innovation</h2>
+                                <p style="font-size: medium;">
+                                We partner with you to quickly develop and implement new products, pilot tests, marketing campaigns and sales programs.
+                                </p>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <h2>Growth Via Integration</h2>
+                                <p style="font-size: medium;">
+                                The Company advocates a simple formula for marketing to businesses and consumers: customer mapping + integrated concepts + breakthrough execution.
+                                </p>
+                            </div>
+                            
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <div id="anchorContact"></div>
+        
+        <div id="contact" class="content contact">
+            <span style="color: coral;">Contact</span>
+            
+            <div class="contentContact container-fluid">
+                
+                <img class="contactImg" src="img/phone.png" alt="contact"/>
+                
+                <div id="mapid"></div>
+                
+                <div class="row">
+                    <div class="col-md-4 boxAbout">
+
+                        <h2><b>Main office</b></h2> <br />
+                        Brandenburgische Straße 98 <br />
+                        Berlin Lichtenberg <br />
+                        Berlin <br />
+                        10367 <br />
+                        030 93 64 50 <br />
+                        mainoffice@company.com
+
+                    </div>
+                    <div class="col-md-4 boxAbout">
+
+                        <h2><b>Warehouse</b></h2> <br />
+                        Genslerstraße 26 <br />
+                        Berlin Steglitz <br />
+                        Berlin <br />
+                        12161 <br />
+                        030 29 97 08 <br />
+                        warehouse@company.com
+
+                    </div>
+                    <div class="col-md-4 boxAbout">
+
+                        <h2><b>Problems?</b></h2> <br />
+                        Genslerstraße 59 <br />
+                        Berlin Wilmersdorf <br />
+                        Berlin <br />
+                        10717 <br />
+                        030 34 49 69 <br />
+                        problems@company.com
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div id="footer" class="content footer">
+            
+            <b>CONNECT WITH US </b><br />
+
+            <a href="http://www.linkedin.com">LINKEDIN </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <a href="http://www.facebook.com">FACEBOOK</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <a href="http://www.twitter.com">TWITTER</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+        </div>
+        
+    </body>
+</html>
